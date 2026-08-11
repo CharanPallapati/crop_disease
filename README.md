@@ -84,46 +84,4 @@ Docker:
 docker compose up --build
 ```
 
-For a real production deployment:
-- use PostgreSQL instead of SQLite
-- store uploads in object storage (S3-compatible)
-- set strong secrets
-- restrict CORS
-- terminate HTTPS at a reverse proxy/load balancer
-- enable application monitoring
-- use background jobs for expensive inference if required
-- back up the database
-- never expose `.env`
-- add rate limiting/WAF
-
-## Safety
-
-The advisory layer intentionally avoids inventing pesticide doses. Treatment details must come from trusted, locally approved agricultural sources and product labels.
-
-The application is decision support, not a substitute for a qualified agronomist.
-
-## Next winning upgrades
-
-1. Real field-validated model
-2. Grad-CAM explanation
-3. Crop/leaf image quality + OOD model
-4. Telugu localization + text-to-speech
-5. 7-day disease-risk model
-6. Field history/trend graphs
-7. Trusted-source citations per recommendation
-8. Offline/PWA support for weak connectivity
-
-
-## v2 winning features
-
-- bilingual farmer-facing output (English/Telugu)
-- browser speech synthesis for Telugu advisory
-- source-linked agronomic guidance
-- explicit uncertainty/quality gate
-- Grad-CAM integration point that refuses to fake explanations
-- field-validation scaffold
-- judge demo script
-
-The source layer follows FAO's integrated pest-management emphasis on monitoring, forecasting,
-non-chemical options and careful intervention, while Indian references can be mapped into
-crop-specific guidance. See the source cards in the app.
+ 
