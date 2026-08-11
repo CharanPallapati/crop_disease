@@ -1,0 +1,86 @@
+{
+  "early_blight": {
+    "name": "Early Blight / ఆకు మచ్చ తెగులు",
+    "summary": "A fungal disease that can progress under favorable environmental conditions.",
+    "management_en": [
+      "Inspect several leaves rather than relying on one image.",
+      "Remove severely affected material where practical and maintain field sanitation.",
+      "Use integrated disease management and follow locally approved recommendations."
+    ],
+    "management_te": [
+      "ఒక్క ఆకు ఆధారంగా నిర్ణయం తీసుకోకుండా అనేక ఆకులను పరిశీలించండి.",
+      "తీవ్రంగా ప్రభావితమైన భాగాలను సాధ్యమైనంత వరకు తొలగించి పొలం శుభ్రత పాటించండి.",
+      "స్థానికంగా ఆమోదించబడిన సమగ్ర వ్యాధి నిర్వహణ సూచనలను అనుసరించండి."
+    ],
+    "prevention": [
+      "Regular scouting",
+      "Good airflow",
+      "Avoid unnecessary leaf wetness"
+    ],
+    "safety": "Use only crop- and region-approved products. Follow the product label and pre-harvest interval.",
+    "sources": [
+      {
+        "title": "FAO — Integrated Pest Management",
+        "url": "https://www.fao.org/agriculture/crops/thematic-sitemap/theme/spi/scpi-home/managing-ecosystems/integrated-pest-management/ipm-how/en/"
+      },
+      {
+        "title": "ICAR — Kharif Agro-Advisories 2025",
+        "url": "https://icar.gov.in/sites/default/files/Circulars/ICAR%20En-Kharif%20Agro-Advisories%20for%20Farmers%202025.pdf"
+      }
+    ]
+  },
+  "late_blight": {
+    "name": "Late Blight / ఆలస్య ఆకు మచ్చ తెగులు",
+    "summary": "A potentially fast-spreading disease for which wet-weather monitoring is important.",
+    "management_en": [
+      "Scout the crop frequently during wet periods.",
+      "Remove affected material where appropriate.",
+      "Use locally approved integrated disease-management guidance."
+    ],
+    "management_te": [
+      "వర్షాలు లేదా తేమ ఎక్కువగా ఉన్నప్పుడు పంటను తరచుగా పరిశీలించండి.",
+      "అవసరమైతే ప్రభావిత భాగాలను తొలగించండి.",
+      "స్థానికంగా ఆమోదించబడిన సమగ్ర వ్యాధి నిర్వహణ సూచనలను అనుసరించండి."
+    ],
+    "prevention": [
+      "Frequent scouting",
+      "Reduce prolonged leaf wetness",
+      "Use resistant varieties where suitable"
+    ],
+    "safety": "Use only crop- and region-approved products and follow labels.",
+    "sources": [
+      {
+        "title": "FAO — Integrated Pest Management",
+        "url": "https://www.fao.org/agriculture/crops/thematic-sitemap/theme/spi/scpi-home/managing-ecosystems/integrated-pest-management/ipm-how/en/"
+      },
+      {
+        "title": "ICAR — Multiple Disease-Resistant Tomato Cultivation",
+        "url": "https://icar.gov.in/en/field-day-multiple-disease-resistant-tomato-cultivation"
+      }
+    ]
+  },
+  "unknown": {
+    "name": "Uncertain condition / నిర్ధారణ స్పష్టంగా లేదు",
+    "summary": "The AI cannot safely map this result to a configured agronomic profile.",
+    "management_en": [
+      "Capture a closer, well-lit image.",
+      "Compare symptoms across multiple leaves.",
+      "Seek local expert confirmation before treatment decisions."
+    ],
+    "management_te": [
+      "మరింత దగ్గరగా, మంచి వెలుతురులో ఫోటో తీయండి.",
+      "అనేక ఆకులపై లక్షణాలను పోల్చి చూడండి.",
+      "చికిత్సకు ముందు స్థానిక వ్యవసాయ నిపుణుడి నిర్ధారణ పొందండి."
+    ],
+    "prevention": [
+      "Continue field monitoring"
+    ],
+    "safety": "Do not make pesticide decisions from an uncertain AI prediction alone.",
+    "sources": [
+      {
+        "title": "FAO — IPM decision-making and monitoring",
+        "url": "https://www.fao.org/agriculture/crops/thematic-sitemap/theme/spi/scpi-home/managing-ecosystems/integrated-pest-management/ipm-how/en/"
+      }
+    ]
+  }
+}

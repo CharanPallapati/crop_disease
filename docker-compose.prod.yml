@@ -1,0 +1,23 @@
+services:
+  api:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    depends_on:
+      - db
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./uploads:/app/uploads
+      - ./model:/app/model
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: agrishield
+      POSTGRES_USER: agrishield
+      POSTGRES_PASSWORD: change-this
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+volumes:
+  pgdata:

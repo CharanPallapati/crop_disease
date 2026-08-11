@@ -1,0 +1,27 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AgriShield AI</title><link rel="stylesheet" href="/frontend/style.css"></head>
+<body>
+<header><b>🌾 AgriShield AI</b><div class="head-actions"><button id="lang">తెలుగు</button><button id="speak">🔊 Speak</button><span>AI Field Copilot</span></div></header>
+<main>
+<section class="hero"><div><small>AGRICULTURE · CLIMATE RESILIENCE</small><h1>Know what's wrong.<br><em>Know when to act.</em></h1>
+<p>Upload a crop image and combine AI vision, local weather and explainable agronomic guidance.</p></div>
+<div class="hero-stat">📷 + 🌦️<strong>Field intelligence</strong><span>Diagnosis → Risk → Action</span></div></section>
+
+<section class="work">
+<div class="box"><h2>Analyze your field</h2><label class="drop"><input id="img" type="file" accept="image/*"><div id="dropText">📷<br><b>Choose a leaf image</b><small>JPG, PNG or WEBP · max 8 MB</small></div><img id="prev"></label>
+<div class="row"><select id="crop"><option value="auto">Auto crop</option><option>tomato</option><option>potato</option><option>corn</option></select><button id="loc">📍 Use location</button></div>
+<p id="locText">Location not set; demo weather will be used.</p><button id="go" disabled>Analyze field →</button><p id="status"></p></div>
+<div class="box"><h2>Live context</h2><div class="weather"><b id="temp">—</b>°C <span>Humidity <b id="hum">—</b>%</span><span>Rain <b id="rp">—</b>%</span></div><div id="bars" class="bars"></div></div>
+</section>
+
+<section id="result" class="hidden">
+<div class="result-title"><div><small>FIELD INTELLIGENCE</small><h2 id="title">Report</h2></div><span id="mode"></span></div>
+<div class="cards">
+<div class="card"><small>AI DIAGNOSIS</small><img id="rimg"><h3 id="disease">—</h3><div>Confidence <b id="conf">—</b></div><div class="progress"><i id="confbar"></i></div><div id="ev"></div></div>
+<div class="card action"><small>DECISION ENGINE</small><div id="icon">🧭</div><h3 id="headline">—</h3><p id="msg"></p><div>Weather suitability <b id="score">—</b></div><div class="progress"><i id="scorebar"></i></div><div id="window"></div><div id="reasons"></div></div>
+<div class="card"><small>AGRONOMIC GUIDANCE</small><h3 id="gname">—</h3><p id="gsummary"></p><ul id="manage"></ul><div class="safety" id="safety"></div></div>
+<div class="card"><small>TRUST & SOURCES</small><div id="sources"></div></div>
+<div class="card"><small>CLIMATE RISK · NEXT 24H</small><div class="risk"><div>Disease pressure<b id="dr">—</b></div><div>Heat stress<b id="hr">—</b></div><div>Overall<b id="or">—</b></div></div></div>
+</div></section>
+<div class="card" id="voiceCard"><small>FARMER-FRIENDLY ADVISORY</small><p id="telugu">విశ్లేషణ తర్వాత రైతుకు సులభమైన తెలుగు సూచన ఇక్కడ కనిపిస్తుంది.</p></div></main><footer>Decision support only. Follow locally approved agronomic guidance and product labels.</footer>
+<script src="/frontend/app.js"></script></body></html>
