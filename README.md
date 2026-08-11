@@ -74,14 +74,6 @@ pip install -r requirements-ml.txt
 python train.py --data dataset --epochs 12
 ```
 
-**For the hackathon, do not rely only on clean benchmark images.** Evaluate on separate real field photographs and report that performance separately.
-
-## Deployment
-
-Docker:
-
-```bash
-docker compose up --build
-```
+  
 
  
